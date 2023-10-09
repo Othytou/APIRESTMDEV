@@ -1,4 +1,7 @@
-const button = document.querySelector('button');
+import  {displayData}  from "./Display/displayData.js";
+
+const button = document.querySelector('#button');
 button.addEventListener('click', () => {
-    console.log('Clicked!');
+    displayData('test', 'h1')
+    displayData('oii', 'p')
 })
